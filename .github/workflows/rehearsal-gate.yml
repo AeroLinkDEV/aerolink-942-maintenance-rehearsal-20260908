@@ -1,0 +1,10 @@
+name: Generic rehearsal gate
+
+on:
+  pull_request:
+
+jobs:
+  fixture:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo rehearsal-only
